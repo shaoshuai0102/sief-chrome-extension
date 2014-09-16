@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sief Extension Options</title>
+  <script src="jquery-2.1.1.js"></script>
+  <script src="semantic-ui/javascript/semantic.min.js"></script>
+  <script src="options.js"></script>
+  <link rel="stylesheet" type="text/css" class="ui" href="semantic-ui/css/semantic.min.css">
+</head>
+<body>
+
+
+<div class="ui form segment" style="width:600px;margin: 50px auto;">
+  <div class="ui top attached label">Sief Configration</div>
+  <div class="field">
+    <label>Server Address</label>
+    <input name="server" id="server" placeholder="ws://127.0.0.1:3000/" type="text">
+  </div>
+  <br/>
+  <div class="small ui buttons">
+    <div class="ui button" id="cancel-btn">Cancel</div>
+    <div class="or"></div>
+    <div class="ui positive button" id="save-btn">Save</div>
+  </div>
+  <div class="floating ui teal label" id="saved-notice" style="display: none;">Saved</div>
+
+</div>
+
+<script src="options.js"></script>
+</body>
+</html>

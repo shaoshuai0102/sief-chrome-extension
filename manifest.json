@@ -1,19 +1,18 @@
 {
   "manifest_version": 2,
-
   "name": "Sief",
   "description": "This extension for sief.",
   "version": "0.1.0",
-
   "permissions": [
     "cookies",
     "tabs",
+    "storage",
     "*://*/*"
   ],
   "background": {
     "scripts": ["socket.io-1.1.0.js", "background.js"]
   },
-
+  "options_page": "options.html",
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"
