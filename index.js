@@ -51,7 +51,7 @@ $(function () {
             url: data.referer,
             name: name,
             value: data.cookiesData[name],
-            domain: data.plugin,
+            domain: data.domain,
             path: '/',
             expirationDate: (new Date).getTime() + 60000 * 60 * 24
           });
@@ -69,7 +69,7 @@ $(function () {
       }, 100);
 
 
-      console.log('click log: ', data.cookiesData, data.plugin, data.referer);
+      console.log('click log: ', data.cookiesData, data.domain, data.referer);
     });
   });
 });

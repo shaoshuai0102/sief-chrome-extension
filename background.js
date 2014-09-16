@@ -16,7 +16,7 @@
 
 var logs = [];
 
-var socket = io('ws://localhost:3000');
+var socket = io('ws://192.168.1.107:3000');
 socket.on('connect', function(){
   console.log('connection established');
   socket.on('log', function(data){
