@@ -1,0 +1,7 @@
+{
+  "name": "sief-chrome-exension",
+  "version": "0.1.0",
+  "devDependencies": {
+    "handlebars": "~2.0.0"
+  }
+}
