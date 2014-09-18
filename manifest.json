@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Sief",
-  "description": "This extension for sief.",
+  "name": "sief",
+  "description": "Extension for sief. https://github.com/shaoshuai0102/thief",
   "version": "0.1.0",
   "permissions": [
     "cookies",
