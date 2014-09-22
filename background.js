@@ -2,7 +2,7 @@ var logs = [];
 var socket;
 
 chrome.storage.sync.get({
-  server: 'ws://127.0.0.1:4000/'
+  server: 'ws://127.0.0.1:3000/'
 }, function (items) {
   openConnection(items.server);
 });
